@@ -198,7 +198,7 @@ declare module '../../index' {
          *   @param [options] An optional object with
          *   configuration
          */
-        createFramebuffer(options?: object): void;
+        createFramebuffer(options?: object): Framebuffer;
 
         /**
          *   Blends the pixels in the display window according
